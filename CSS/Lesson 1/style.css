@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid red;
+    width: 900px;
+    height: 700px;
+    background-image: url(https://photographylife.com/wp-content/uploads/2020/03/Dan-Ballard-Landscapes-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: white;
+}
+
+body{
+    background: linear-gradient(yellow , green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    padding: 40px 0px 0px  0px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 70px;
+}
+.box{
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+#box3{
+    background-color: aqua;
+    position: absolute;
+    top: 100px;
+    left: 2px;
+}

@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV626dapoOfdh9DwzqOmITjUG9v-zBW9Zozw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 70%;
+    width: 50%;
+    background-color: rgba(247, 244, 244, 0.527);
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.loginDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.password{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 15px;
+}
+h1{
+    font-size: 90px;
+}
+input[type="text"], input[type="password"]{
+    font-size: medium;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+button{
+    cursor: pointer;
+     font-size: medium;
+     border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    background: linear-gradient(rgb(240, 173, 184) , rgb(227, 114, 227))
+}
+p{
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Mobile*/
+@media screen and ( min-width:320px ) and (max-width:480px ){
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   background-position: center;
+}
+
+.loginPage{
+   
+    gap: 20px;
+    height: 85%;
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.loginDetails{
+    gap: 10px;
+    width: 80%;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+}
+}
+/*Ipads*/
+@media screen and ( min-width:481px ) and (max-width:768px ){
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   background-position: center;
+}
+
+.loginPage{
+   
+    gap: 20px;
+    height: 85%;
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.loginDetails{
+    gap: 10px;
+    width: 80%;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+}
+}
+/*Small screens*/
+@media screen and ( min-width:769px ) and (max-width:1024px ){
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   background-position: center;
+}
+
+.loginPage{
+   
+    gap: 20px;
+    height: 85%;
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.loginDetails{
+    gap: 10px;
+    width: 80%;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+}
+}
+/*Large screens*/
+@media screen and ( min-width:1025px ) and (max-width:1200px ){
+.container{
+    
+    height: 100vh;
+    width: 100vw;
+   overflow: hidden;
+   background-position: center;
+}
+
+.loginPage{
+   
+    gap: 20px;
+    height: 85%;
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+}
+.loginDetails{
+    gap: 10px;
+    width: 80%;
+}
+.password{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    gap: 20px;
+}
+}
+

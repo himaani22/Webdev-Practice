@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(171, 245, 220);
+}
+h1{
+    font-size: 4em;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#emoji{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 50px;
+    width: 150px;
+    height: 90px;
+    background-color: rgb(240, 201, 201);
+    cursor: pointer;
+    margin: 20px;
+    
+}
+
+#des{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgb(243, 19, 31);
+}

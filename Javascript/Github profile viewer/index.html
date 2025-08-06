@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div>
+            <div>
+                <h1 class="Heading">Github Profile Viewer</h1>
+            </div>
+            <div class="firstDiv">
+                <input type="text" name="" id="userID">
+                <button id="btn">Search</button>
+            </div>
+        </div>
+        <div class="secondDiv" id="userProfile">
+            <h1>Search User</h1>
+ <!-- <div class="userInfo">
+    <img src="data:image/jpeg;base64,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" class="userImg" alt="err">
+    <div class="userDetail">
+        <p class="userName">Himani Sahu</p>
+        <p class="userBio">Full Stack Developer</p>
+    </div>
+</div>
+<div class="userFollow">
+    <div class="follower">
+        <div class="repo">
+            <p>Follower</p>
+            <p>19</p>
+        </div>
+        <div class="repo">
+            <p>Following</p>
+            <p>10</p>
+        </div>
+        <div class="repo">
+            <p>Repo</p>
+            <p>11</p>
+        </div>
+      
+    </div>
+       <div class="visit">
+        Visit Profile
+    </div>
+        </div>
+    -->
+   
+</div>
+        </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

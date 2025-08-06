@@ -23,3 +23,20 @@ let data = e.target
          data = ' ';
          })
     })
+
+
+
+
+  //OOPS concept
+    class product{
+        constructor(name,price){
+        this.name = name;
+        this.price= price;
+    }
+printname(){
+    return this.name;
+}
+    }
+    let n = new product("Mic" , 5000)
+    console.log(n);
+    
